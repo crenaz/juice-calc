@@ -10,8 +10,8 @@
   },
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server"
-    "heroku-postbuild" : "webpack -p --config ./webpack.prod.config.js --progress"
+    "start": "webpack-dev-server",
+    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress"
   },
   "babel": {
       "presets": ["es2015"]
