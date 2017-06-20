@@ -1,12 +1,12 @@
 {
-  "name": "theFull-JS-es6-followAlong",
+  "name": "juice-calc",
   "version": "1.0.0",
-  "description": "Following David Katz",
-  "author": "",
+  "description": "To calculate the amount of fruit needed to make juice.",
+  "author": "crenaz",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "http://127.0.0.1/"
+    "url": "https://github.com/crenaz/juice-calc.git"
   },
   "scripts": {
     "build": "webpack",
