@@ -1,7 +1,7 @@
 module.exports = {
     entry: ['./app/index.js'],
     output: {
-        path: '/home/crenaz/Documents/Learning/es6/theFull-JS-es6-followAlong/build',
+        path: '/home/crenaz/Documents/websites/forMe/juice-calc/build',
         filename: 'bundle.js'
     },
     module: {
