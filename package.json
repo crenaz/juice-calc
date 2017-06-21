@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "To calculate the amount of fruit needed to make juice.",
   "author": "crenaz",
+    "engines": {
+    "node": "5.10.0"
+    },
   "main": "index.js",
   "repository": {
     "type": "git",
