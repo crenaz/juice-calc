@@ -4,7 +4,8 @@
   "description": "To calculate the amount of fruit needed to make juice.",
   "author": "crenaz",
     "engines": {
-    "node": "8.0.0"
+    "node": "8.0.0",
+    "npm": "5.0.4"
     },
   "main": "index.js",
   "repository": {
