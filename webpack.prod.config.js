@@ -15,7 +15,7 @@ module.exports = {
   },
 
   plugins: [
-    new webpack.optimize.DedupePlugin(),
+    
     new webpack.optimize.UglifyJsPlugin({
       minimize: true,
       compress: {
@@ -32,7 +32,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.js?$/,
-        loader: 'babel',
+        loader: 'babel-loader',
         exclude: /node_modules/ },
       { test: /\.scss?$/,
         loader: 'style!css!sass',
