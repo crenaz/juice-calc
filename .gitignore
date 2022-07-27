@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs
@@ -88,3 +89,23 @@ sw.*
 
 # Vim swap files
 *.swp
+=======
+# Ignore Mac system files
+.DS_store
+
+# Ignore node_modules folder
+node_modules
+
+# Ignore all text files
+*.txt
+
+# Ignore files related to API keys
+.env
+
+# Ignore SASS config files
+.sass-cache
+
+# Igonre log files
+*.log
+node_modules/
+>>>>>>> 7a7e8379eb18fd397c8aab4816e9f282ea6a1ff6
